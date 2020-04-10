@@ -6,3 +6,9 @@ menu.addEventListener('click', () => {
     bar.classList.toggle('active-bar');
     nav.classList.toggle('active-nav');
 })
+
+const oneLi = () => {
+
+}
+
+document.querySelector('one').addEventListener('click', oneLi);
