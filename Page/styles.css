@@ -24,9 +24,10 @@ div.logo {
     z-index: 1;
 }
 
-
-
-
+a {
+    text-decoration: none;
+    color: #000;
+}
 
 .bar {
     width: 100%;
@@ -170,9 +171,4 @@ ul {
         font-size: 30px;
         padding: 10px 50px;
     }
-}
-
-a {
-    text-decoration: none;
-    color: #000;
 }
