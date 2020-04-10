@@ -23,6 +23,13 @@ div.line {
     height: 1px;
 }
 
+div.content {
+    margin-top: 20px;
+    height: 1500px;
+    
+    font-size: 40px;
+}
+
 .menu {
     display: flex;
     flex-direction: column;
