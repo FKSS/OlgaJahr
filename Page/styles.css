@@ -67,6 +67,11 @@ ul {
     text-align: center;
 }
 
+a {
+    text-decoration: none;
+    color: #000;
+}
+
 /*          ---PORTRAIT---           */
 
 @media (orientation: portrait) and (min-height: 1024px) {
@@ -170,9 +175,4 @@ ul {
         font-size: 30px;
         padding: 10px 50px;
     }
-}
-
-a {
-    text-decoration: none;
-    color: #000;
 }
