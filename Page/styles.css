@@ -1,6 +1,7 @@
 ﻿body {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     background-color: #fff;
     font-family: 'Open Sans', sans-serif;
 }
@@ -62,7 +63,7 @@ nav {
 
     transition: .5s;
     transition-delay: 0;
-    background-color: #999;
+    background-color: #bbb;
 }
 
 nav.active-nav {
@@ -183,4 +184,31 @@ a {
         font-size: 30px;
         padding: 10px 50px;
     }
+
+}
+
+@media (orientation: landscape) and (min-width: 1600px) {
+    .menu {
+        display: none;
+    }
+
+    nav {
+        transform: translateX(0);
+        flex-direction: row;
+        bottom: auto;
+        padding-top: 0;
+
+    }
+
+    ul {
+        font-size: 30px;
+        padding: 10px 50px;
+    }
+
+    ul:hover {
+        background-color: #ddd;
+
+    }
+
+
 }
