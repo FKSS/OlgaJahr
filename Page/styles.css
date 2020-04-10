@@ -6,8 +6,20 @@
 }
 
 div.logo {
-    margin-top: 200px;
-    font-family: 'Open Sans', sans-serif;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 120px;
+
+    font-family: 'EB Garamond', serif;
+    font-size: 30px;
+}
+
+div.line {
+    margin-top: 5px;
+    width: 100%;
+    background-color: #000;
+    height: 1px;
 }
 
 .menu {
@@ -23,10 +35,6 @@ div.logo {
     height: 30px;
     z-index: 1;
 }
-
-
-
-
 
 .bar {
     width: 100%;
