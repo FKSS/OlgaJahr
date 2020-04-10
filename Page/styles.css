@@ -7,3 +7,42 @@
 div.logo {
     font-family: 'Open Sans', sans-serif;
 }
+
+.menu {
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+.bar {
+    position: absolute;
+    top: 0px;
+
+    width: 42px;
+    height: 6px;
+    border-radius: 5px;
+
+    background-color: #000;
+}
+
+.bar::before {
+    content: '';
+    position: absolute;
+    top: 13px;
+    width: 42px;
+    height: 6px;
+    border-radius: 5px;
+
+    background-color: #000;
+}
+
+.bar::after {
+    content: '';
+    position: absolute;
+    top: 26px;
+    width: 42px;
+    height: 6px;
+    border-radius: 5px;
+
+    background-color: #000;
+}
