@@ -10,61 +10,19 @@
 .logo {
     position: fixed;
     top: 0;
-    padding: 10px 0px 7px 0px;
+    height: 4rem;
+    line-height: 4rem;
     width: 100%;
     text-align: center;
     background-color: #fff;
 
 
- 
+    border-bottom: 1px solid #000;
     font-family: 'EB Garamond', serif;
     font-size: 30px;
 }
 
-.line {
-    position: fixed;
-    top: 55px;
 
-    width: 100%;
-    background-color: #000;
-    height: 1px;
-}
-
-.content {
-    margin-top: 60px;
-    height: 1500px;
-
-    font-size: 40px;
-}
-
-.links {
-    width: 100%;
-    margin-bottom: 7px;
-    line-height: 2;
-
-    text-align: center;
-}
-
-.links img {
-    margin: 10px;
-}
-
-.copyright {
-    height: 28px;
-    width: 100%;
-    padding-top: 5px;
-    background-color: #000;
-
-    font-style: italic;
-    font-size: 13px;
-    text-align: center;
-    color: #fff;
-}
-
-a {
-    text-decoration: none;
-    color: #000;
-}
 
 /*          menu            */
 .menu {
@@ -74,7 +32,7 @@ a {
     justify-content: space-around;
 
     position: fixed;
-    top: 15px;
+    top: 17px;
     left: 15px;
     width: 30px;
     height: 30px;
@@ -83,7 +41,7 @@ a {
 
 .bar {
     width: 100%;
-    height: 3px;
+    height: 2px;
 
     background-color: #000;
     transition: .3s;
@@ -136,6 +94,45 @@ ul {
 }
 
 
+
+.content {
+    margin-top: 4rem;
+    height: 1500px;
+    font-size: 40px;
+}
+
+.links {
+    width: 100%;
+    margin-bottom: 3%;
+    line-height: 2;
+
+    text-align: center;
+}
+
+.links img {
+    margin: 10px;
+}
+
+.copyright {
+    height: 28px;
+    width: 100%;
+    padding-top: 5px;
+    background-color: #000;
+
+    font-style: italic;
+    font-size: 13px;
+    text-align: center;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+
+
+
 /*          ---PORTRAIT---           */
 @media (orientation: portrait) and (min-height: 640px) {
     .menu {
@@ -143,44 +140,37 @@ ul {
         height: 40px;
     }
 
-    div.line {
-        margin-top: 10px;
-    }
+
 }
 
 @media (orientation: portrait) and (min-height: 800px) {
     .menu {
-        top: 20px;
-        left: 20px;
+        top: 15px;
+        left: 15px;
 
-        width: 46px;
-        height: 46px;
+        width: 43px;
+        height: 43px;
     }
 
     div.logo {
-        margin-top: 15px;
+        height: 4.5rem;
         font-size: 35px;
     }
 
-    div.line {
-        margin-top: 15px;
-    }
+
 }
 
 @media (orientation: portrait) and (min-height: 1024px) {
     .menu {
-        top: 30px;
+        top: 20px;
         left: 30px;
     }
 
     div.logo {
-        margin-top: 20px;
-        font-size: 40px;
+        font-size: 45px;
     }
 
-    div.line {
-        margin-top: 20px;
-    }
+
 
     nav {
         padding-top: 70px;
@@ -195,7 +185,7 @@ ul {
 
 @media (orientation: portrait) and (min-height: 1300px) {
     .menu {
-        top: 40px;
+        top: 35px;
         left: 40px;
 
         width: 70px;
@@ -203,13 +193,15 @@ ul {
     }
 
     div.logo {
-        margin-top: 30px;
-        font-size: 55px;
+        height: 7rem;
+        line-height: 7rem;
+        font-size: 65px;
     }
 
-    div.line {
-        margin-top: 30px;
+    .content {
+        margin-top: 7rem;
     }
+
 
     nav {
         padding-top: 130px;
@@ -226,24 +218,26 @@ ul {
 
 /*          ---LANDSCAPE---           */
 
+@media (orientation: landscape) {
+    .logo {
+        height: 4rem;
+        line-height: 4rem;
+    }
+}
+
 @media (orientation: landscape) and (min-width: 800px) {
     .menu {
         width: 40px;
         height: 40px;
     }
 
-    div.logo {
-        margin-top: 15px;
-    }
 
-    div.line {
-        margin-top: 15px;
-    }
+
 }
 
 @media (orientation: landscape) and (min-width: 1024px) {
     .menu {
-        top: 25px;
+        top: 20px;
         left: 25px;
 
         height: 50px;
@@ -251,12 +245,13 @@ ul {
     }
 
     div.logo {
-        margin-top: 15px;
-        font-size: 40px;
+        height: 5rem;
+        line-height: 5rem;
+        font-size: 45px;
     }
 
-    div.line {
-        margin-top: 20px;
+    .content {
+        margin-top: 5.5rem;
     }
 
     nav {
@@ -272,7 +267,7 @@ ul {
 
 @media (orientation: landscape) and (min-width: 1300px) {
     .menu {
-        top: 30px;
+        top: 20px;
         left: 30px;
 
         height: 60px;
@@ -280,10 +275,14 @@ ul {
     }
 
     div.logo {
-        margin-top: 25px;
-        font-size: 50px;
+        height: 6rem;
+        line-height: 6rem;
+        font-size: 60px;
     }
 
+    .content {
+        margin-top: 7rem;
+    }
 
 
     nav {
@@ -298,7 +297,7 @@ ul {
 
 }
 
-@media (orientation: landscape) and (min-width: 1600px) {
+@media (orientation: landscape) and (min-width: 1500px) {
     .menu {
         display: none;
     }
@@ -320,6 +319,8 @@ ul {
     ul a:hover {
         border-bottom: 1px solid #000;
     }
+
+
 
 
 }
