@@ -8,9 +8,11 @@
 
 .logo {
     position: fixed;
-    top: 10px;
+    top: 0;
+    padding: 10px 0 7px 0;
     width: 100%;
     text-align: center;
+    background-color: #fff;
 
     font-family: 'EB Garamond', serif;
     font-size: 30px;
@@ -84,14 +86,16 @@ a {
     transition: .3s;
 }
 
-.active-bar {
-    background-color: #444;
-    transform: translateX(6px);
-}
-
 .active-menu {
     background-color: #ccc;
 }
+
+.active-bar {
+    background-color: #808080;
+    transform: translateX(6px);
+}
+
+
 
 .nav_line {
     width: 100%;
