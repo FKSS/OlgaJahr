@@ -6,6 +6,7 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+
 .logo {
     position: fixed;
     top: 0;
@@ -14,6 +15,8 @@
     text-align: center;
     background-color: #fff;
 
+
+ 
     font-family: 'EB Garamond', serif;
     font-size: 30px;
 }
@@ -114,11 +117,12 @@ nav {
     transition: .5s;
     transition-delay: 0;
 
+
     background-color: #333333;
 }
 
 nav a {
-    color: white;
+    color: #fff;
 }
 
 nav.active-nav {
@@ -133,11 +137,49 @@ ul {
 
 
 /*          ---PORTRAIT---           */
+@media (orientation: portrait) and (min-height: 640px) {
+    .menu {
+        width: 40px;
+        height: 40px;
+    }
+
+    div.line {
+        margin-top: 10px;
+    }
+}
+
+@media (orientation: portrait) and (min-height: 800px) {
+    .menu {
+        top: 20px;
+        left: 20px;
+
+        width: 46px;
+        height: 46px;
+    }
+
+    div.logo {
+        margin-top: 15px;
+        font-size: 35px;
+    }
+
+    div.line {
+        margin-top: 15px;
+    }
+}
 
 @media (orientation: portrait) and (min-height: 1024px) {
     .menu {
         top: 30px;
         left: 30px;
+    }
+
+    div.logo {
+        margin-top: 20px;
+        font-size: 40px;
+    }
+
+    div.line {
+        margin-top: 20px;
     }
 
     nav {
@@ -160,6 +202,15 @@ ul {
         height: 70px;
     }
 
+    div.logo {
+        margin-top: 30px;
+        font-size: 55px;
+    }
+
+    div.line {
+        margin-top: 30px;
+    }
+
     nav {
         padding-top: 130px;
         transition: .4s;
@@ -171,22 +222,7 @@ ul {
     }
 }
 
-@media (orientation: portrait) and (min-height: 640px) {
-    .menu {
-        width: 40px;
-        height: 40px;
-    }
-}
 
-@media (orientation: portrait) and (min-height: 800px) {
-    .menu {
-        top: 20px;
-        left: 20px;
-
-        width: 46px;
-        height: 46px;
-    }
-}
 
 /*          ---LANDSCAPE---           */
 
@@ -194,6 +230,14 @@ ul {
     .menu {
         width: 40px;
         height: 40px;
+    }
+
+    div.logo {
+        margin-top: 15px;
+    }
+
+    div.line {
+        margin-top: 15px;
     }
 }
 
@@ -204,6 +248,15 @@ ul {
 
         height: 50px;
         width: 50px;
+    }
+
+    div.logo {
+        margin-top: 15px;
+        font-size: 40px;
+    }
+
+    div.line {
+        margin-top: 20px;
     }
 
     nav {
@@ -226,6 +279,13 @@ ul {
         width: 60px;
     }
 
+    div.logo {
+        margin-top: 25px;
+        font-size: 50px;
+    }
+
+
+
     nav {
         padding-top: 100px;
         transition: .4s;
@@ -244,6 +304,7 @@ ul {
     }
 
     nav {
+        display: flex;
         transform: translateX(0);
         flex-direction: row;
         bottom: auto;
@@ -256,9 +317,9 @@ ul {
         padding: 10px 50px;
     }
 
-    ul:hover {
-        background-color: #ddd;
-
+    ul a:hover {
+        border-bottom: 1px solid #000;
     }
+
 
 }
