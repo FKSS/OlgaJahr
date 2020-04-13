@@ -6,21 +6,67 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-div.logo {
-    margin-top: 10px;
 
+.logo {
+    position: fixed;
+    top: 0;
+    padding: 10px 0px 7px 0px;
+    width: 100%;
     text-align: center;
+    background-color: #fff;
+
+
+ 
     font-family: 'EB Garamond', serif;
     font-size: 30px;
 }
 
-div.line {
-    margin-top: 5px;
+.line {
+    position: fixed;
+    top: 55px;
+
     width: 100%;
     background-color: #000;
     height: 1px;
 }
 
+.content {
+    margin-top: 60px;
+    height: 1500px;
+
+    font-size: 40px;
+}
+
+.links {
+    width: 100%;
+    margin-bottom: 7px;
+    line-height: 2;
+
+    text-align: center;
+}
+
+.links img {
+    margin: 10px;
+}
+
+.copyright {
+    height: 28px;
+    width: 100%;
+    padding-top: 5px;
+    background-color: #000;
+
+    font-style: italic;
+    font-size: 13px;
+    text-align: center;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+/*          menu            */
 .menu {
     display: flex;
     flex-direction: column;
@@ -41,27 +87,42 @@ div.line {
 
     background-color: #000;
     transition: .3s;
+}
 
+.active-menu {
+    background-color: #ccc;
 }
 
 .active-bar {
-    background-color: #444;
+    background-color: #808080;
     transform: translateX(6px);
+}
+
+
+
+.nav_line {
+    width: 100%;
+    background-color: #808080;
+    height: 0.7px;
 }
 
 nav {
     display: flex;
     flex-direction: column;
-
     position: fixed;
     top: 0px;
     bottom: 0;
     transform: translateX(-100%);
     padding-top: 55px;
-
     transition: .5s;
     transition-delay: 0;
 
+
+    background-color: #333333;
+}
+
+nav a {
+    color: #fff;
 }
 
 nav.active-nav {
@@ -74,10 +135,6 @@ ul {
     text-align: center;
 }
 
-a {
-    text-decoration: none;
-    color: #000;
-}
 
 /*          ---PORTRAIT---           */
 @media (orientation: portrait) and (min-height: 640px) {
