@@ -7,26 +7,28 @@
 }
 
 .logo {
-    margin-top: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 120px;
+    position: fixed;
+    top: 10px;
+    width: 100%;
+    text-align: center;
 
     font-family: 'EB Garamond', serif;
     font-size: 30px;
 }
 
 .line {
-    margin-top: 5px;
+    position: fixed;
+    top: 55px;
+
     width: 100%;
     background-color: #000;
     height: 1px;
 }
 
 .content {
-    margin-top: 20px;
+    margin-top: 60px;
     height: 1500px;
-    
+
     font-size: 40px;
 }
 
@@ -38,7 +40,7 @@
     text-align: center;
 }
 
-.links img{
+.links img {
     margin: 10px;
 }
 
@@ -87,6 +89,10 @@ a {
     transform: translateX(6px);
 }
 
+.active-menu {
+    background-color: #ccc;
+}
+
 .nav_line {
     width: 100%;
     background-color: #808080;
@@ -103,7 +109,7 @@ nav {
     padding-top: 55px;
     transition: .5s;
     transition-delay: 0;
-    
+
     background-color: #333333;
 }
 
