@@ -89,7 +89,7 @@ nav.active-nav {
 
 ul {
     margin: 0;
-    padding: 5px 20px;
+    padding: 5px 25%;
     text-align: center;
 }
 
@@ -309,6 +309,11 @@ a {
         bottom: auto;
         padding-top: 0;
 
+        background-color: #fff;
+    }
+
+    nav a {
+        color: #000;
     }
 
     ul {
@@ -320,7 +325,6 @@ a {
         border-bottom: 1px solid #000;
     }
 
-
-
-
 }
+
+/*      Scroll-up button        */
