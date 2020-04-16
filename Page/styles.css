@@ -109,7 +109,11 @@ ul {
     text-align: center;
 }
 
-.links img {
+.social{
+    text-align: center;
+}
+
+.social img {
     margin: 10px;
 }
 
@@ -304,6 +308,7 @@ a {
 
     div.logo {
         border-bottom: none;
+        position: initial;
     }
 
     ul {
@@ -341,6 +346,15 @@ a {
         border-bottom: 1px solid #888;
     }
 
+    .links {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .copyright {
+        height: 30px;
+        font-size: 15px;
+    }
 }
 
 /*      Scroll-up button        */
