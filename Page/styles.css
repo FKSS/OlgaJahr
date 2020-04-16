@@ -302,13 +302,29 @@ a {
         display: none;
     }
 
+    div.logo {
+        border-bottom: none;
+    }
+
+    ul {
+        border-right: 0.1px solid #888;
+
+
+    }
+
+    ul:nth-of-type(4) {
+        border-right: none;
+    }
+
     nav {
         display: flex;
-        transform: translateX(0);
+        transform: translateX(-50%);
         flex-direction: row;
+        padding: 0;
+        position: absolute;
+        top: 7rem;
+        left: 50%;
         bottom: auto;
-        padding-top: 0;
-
         background-color: #fff;
     }
 
@@ -317,12 +333,12 @@ a {
     }
 
     ul {
-        font-size: 30px;
-        padding: 10px 50px;
+        font-size: 20px;
+        padding: 0px 50px;
     }
 
     ul a:hover {
-        border-bottom: 1px solid #000;
+        border-bottom: 1px solid #888;
     }
 
 }
