@@ -100,7 +100,7 @@ ul {
 
 .links {
     width: 100%;
-    margin-bottom: 3%;
+
     line-height: 2;
 
     text-align: center;
@@ -114,23 +114,21 @@ ul {
     width: 82px;
 }
 
-#fb img{
+#fb img {
     width: 22px;
 }
 
-#ig img{
+#ig img {
     width: 23px;
 }
 
 
-.social img {
-    margin: 10px;
-}
+
 
 .copyright {
-    height: 28px;
+
     width: 100%;
-    padding-top: 5px;
+
     background-color: #000;
 
     font-style: italic;
@@ -359,38 +357,53 @@ a {
     .links {
         display: flex;
         flex-direction: row;
-        width: 425px;
-        margin-left: auto;
-        margin-right: auto;
+        justify-content: center;
     }
 
-    .dot{
+    .dot {
         border-radius: 50%;
         background-color: #000;
         opacity: 0.6;
 
         width: 4px;
         height: 4px;
-        margin-top: 15px;
+        transform: translateY(230%);
+        margin: 0 15px;
+        /* margin-top: 15px;
         margin-left: 15px;
-        margin-right: 15px;
+        margin-right: 15px; */
     }
 
-    #fb img {
+
+    .social {
+
+        display: flex;
+        flex-direction: row;
+        margin: auto;
+        width: auto;
+        justify-content: center;
+    }
+
+    .socials img {
+        width: 100%;
+        display: block;
+    }
+
+
+    #ig {
         width: 30px;
+        justify-self: flex-end;
     }
 
-    #ig img {
-        width: 31px;
-    }
-
-    .social img:hover{
+    .social :hover {
         opacity: 0.8;
     }
 
     .copyright {
-        height: 30px;
+
+
         font-size: 15px;
+        padding: 15px 0;
     }
 }
 
