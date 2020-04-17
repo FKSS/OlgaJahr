@@ -16,7 +16,6 @@
     text-align: center;
     background-color: #fff;
 
-
     border-bottom: 1px solid #000;
     font-family: 'EB Garamond', serif;
     font-size: 30px;
@@ -93,8 +92,6 @@ ul {
     text-align: center;
 }
 
-
-
 .content {
     margin-top: 4rem;
     height: 1500px;
@@ -109,9 +106,22 @@ ul {
     text-align: center;
 }
 
-.social{
-    text-align: center;
+.social {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    width: 82px;
 }
+
+#fb img{
+    width: 22px;
+}
+
+#ig img{
+    width: 23px;
+}
+
 
 .social img {
     margin: 10px;
@@ -349,6 +359,33 @@ a {
     .links {
         display: flex;
         flex-direction: row;
+        width: 425px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .dot{
+        border-radius: 50%;
+        background-color: #000;
+        opacity: 0.6;
+
+        width: 4px;
+        height: 4px;
+        margin-top: 15px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    #fb img {
+        width: 30px;
+    }
+
+    #ig img {
+        width: 31px;
+    }
+
+    .social img:hover{
+        opacity: 0.8;
     }
 
     .copyright {
