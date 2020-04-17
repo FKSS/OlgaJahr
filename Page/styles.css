@@ -376,32 +376,45 @@ a {
 
 
     .social {
-
+        position: relative;
         display: flex;
         flex-direction: row;
-        margin: auto;
-        width: auto;
-        justify-content: center;
-    }
-
-    .socials img {
         width: 100%;
+        padding: 20px 0;
+        font-size: 20px;
+
+
+        justify-content: center;
+
+    }
+
+    .social img {
+        width: 43px;
         display: block;
+        margin-right: 10px;
+
+    }
+
+    img:nth-of-type(1) {
+        position: absolute;
+        right: 0;
+        top: 20px;
+    }
+
+    img:nth-of-type(2) {
+        position: absolute;
+        right: 53px;
+        top: 20px;
     }
 
 
-    #ig {
-        width: 30px;
-        justify-self: flex-end;
-    }
+
 
     .social :hover {
         opacity: 0.8;
     }
 
     .copyright {
-
-
         font-size: 15px;
         padding: 15px 0;
     }
