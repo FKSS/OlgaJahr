@@ -41,7 +41,7 @@
     left: 15px;
     width: 30px;
     height: 30px;
-    z-index: 1;
+    z-index: 3;
 }
 
 .bar {
@@ -80,6 +80,7 @@ nav {
     transition: .5s;
     transition-delay: 0;
     background-color: #333333;
+    z-index: 2;
 }
 
 nav a {
@@ -100,6 +101,7 @@ ul {
 /*      CONTENT      */
 
 .content {
+
     margin-top: 4rem;
     height: 1500px;
     font-size: 40px;
@@ -110,7 +112,7 @@ ul {
 
 .links {
     position: relative;
-    z-index: -1;
+    z-index: 1;
     width: 100%;
 
     text-align: center;
@@ -446,6 +448,8 @@ ul {
         border-right: none;
     }
 
+
+
     ul a:hover {
         border-bottom: 1px solid #888;
     }
@@ -457,6 +461,8 @@ ul {
         align-items: center;
 
     }
+
+
 
     .dot {
         margin: 0 15px;
