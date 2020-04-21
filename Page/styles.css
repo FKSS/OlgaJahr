@@ -102,9 +102,20 @@ ul {
 
 .content {
 
+    padding-top: 30%;
+    text-align: center;
     margin-top: 4rem;
-    height: 1500px;
-    font-size: 40px;
+    height: 80vh;
+    font-size: 25px;
+}
+
+.content .kontakt {
+    margin-top: 0%;
+    font-size: 20px;
+}
+
+.content .telefon {
+    font-size: 18px;
 }
 
 
@@ -209,6 +220,17 @@ ul {
         font-size: 25px;
         padding: 10px 40px;
     }
+
+    /*       PRACE NAD STRONĄ      */
+
+    .content {
+        padding-top: 40%;
+    }
+
+    .content .kontakt {
+        margin-top: 10%;
+
+    }
 }
 
 @media (orientation: portrait) and (min-height: 1300px) {
@@ -275,6 +297,21 @@ ul {
         transform: translateY(-60%);
     }
 
+    /*       PRACE NAD STRONĄ      */
+
+    .content {
+        font-size: 40px;
+    }
+
+    .content .kontakt {
+        margin-top: 10%;
+        font-size: 25px;
+    }
+
+    .content .telefon {
+        font-size: 20px;
+    }
+
 
 }
 
@@ -316,6 +353,22 @@ ul {
         display: flex;
         justify-content: flex-end;
         transform: translateY(-60%);
+    }
+
+    /*       PRACE NAD STRONĄ      */
+
+    .content {
+        padding-top: 10%;
+        font-size: 25px;
+    }
+
+    .content .kontakt {
+        margin-top: 0;
+        font-size: 20px;
+    }
+
+    .content .telefon {
+        font-size: 18px;
     }
 
 
@@ -414,6 +467,8 @@ ul {
 }
 
 @media (orientation: landscape) and (min-width: 1500px) {
+
+
     .menu {
         display: none;
     }
@@ -490,6 +545,22 @@ ul {
     .copyright {
         font-size: 15px;
         padding: 15px 0;
+    }
+
+    /*       PRACE NAD STRONĄ      */
+
+    .content {
+        padding-top: 10%;
+        font-size: 40px;
+    }
+
+    .content .kontakt {
+        margin-top: 0;
+        font-size: 25px;
+    }
+
+    .content .telefon {
+        font-size: 20px;
     }
 }
 
