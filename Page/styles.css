@@ -456,7 +456,7 @@ ul {
 
     .links {
         font-size: 20px;
-        transform: translateY(30%);
+        transform: translateY(-50%);
         padding: 0;
         align-items: center;
 
@@ -468,11 +468,15 @@ ul {
         margin: 0 15px;
     }
 
-    .social {
-        display: flex;
-        justify-content: flex-end;
-        transform: translateY(-60%);
+    footer {
+        position: relative;
+    }
 
+    .social {
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 4;
     }
 
     .social img {
